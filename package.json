@@ -1,12 +1,13 @@
 {
-  "name": "app-toeci-api",
+  "name": "app-basic-api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "mocha 'test/user_test.js'"
   },
-  "author": "",
+  "author": "trongnv",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.0",
